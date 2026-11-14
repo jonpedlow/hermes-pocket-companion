@@ -48,6 +48,8 @@ The browser build emits 74 package notice entries. All carry licence text. Brows
 
 ## Artwork, fonts and public captures
 
+**Post-v1.0.0 README launch illustration.** The owner supplied the ChatGPT-created JPEG in `docs/pocket-launch.jpg`. Its phone mockups depict adaptations of the drop, cloud, hexagon and squircle designs defined in the Hermes Bot Mode renderer. The plugin directory carries a specific MIT licence, copyright (c) 2026 Nous Research. The illustration is reproduced as supplied. The credit appears directly below the banner and the full plugin notice accompanies the image. This documentation addition is subsequent to the v1.0.0 release archive. [Pinned avatar renderer](https://github.com/NousResearch/hermes-agent/blob/2bd378ed1b8d6bf2192cb26e0a55ff3091e6bd19/apps/desktop/src/plugins/hermes-bots/avatar.tsx) · [Pinned upstream licence](https://github.com/NousResearch/hermes-agent/blob/2bd378ed1b8d6bf2192cb26e0a55ff3091e6bd19/apps/desktop/src/plugins/hermes-bots/LICENSE) · [Included notice](licenses/hermes-bot-mode-MIT.txt)
+
 | Asset | Origin and evidence | Release treatment |
 |---|---|---|
 | `public/pocket-companion.svg` | Codex authored the SVG for this project in the bot-picker revision after the owner requested a simpler Hermes/Grok-inspired character. The authoring session inspected local avatars and Hermes’ source SVGs. A first pointed-ear design was discarded. The accepted geometry consists of a dark rounded square, one original asymmetrical purple body path and four eye/pupil circles. No source path, raster, font or external reference is embedded. | Pocket MIT. Authored source SHA-256 `2213bc2158d72dca519245d5308a158a0480f38aed6f9cbba8c696e2336a9854`. No official affiliation or upstream trademark grant is claimed. |

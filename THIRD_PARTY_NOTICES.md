@@ -1,5 +1,7 @@
 # Third-party notices
 
+The README launch graphic depicts adaptations of the flat bot avatar designs from Hermes Bot Mode. Copyright (c) 2026 Nous Research. The owner supplied the ChatGPT-created composite. Pocket is an independent project. [Upstream avatar renderer](https://github.com/NousResearch/hermes-agent/blob/2bd378ed1b8d6bf2192cb26e0a55ff3091e6bd19/apps/desktop/src/plugins/hermes-bots/avatar.tsx) · [Full upstream MIT notice](licenses/hermes-bot-mode-MIT.txt)
+
 Pocket Companion’s [MIT licence](LICENSE) covers the project’s original code and artwork. The named third-party components retain their upstream copyrights and licences. The [licence audit](LICENSE_AUDIT.md) identifies the reviewed versions, provenance and release restrictions.
 
 | Material | Notices to retain |

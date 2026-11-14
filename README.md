@@ -1,4 +1,6 @@
-<img src="public/pocket-companion.svg" width="72" alt="Pocket Companion icon">
+![Pocket Companion launch illustration showing a chat and a team of four bots on two phones](docs/pocket-launch.jpg)
+
+Bot avatar designs in this launch illustration are adapted from Hermes Bot Mode, © 2026 Nous Research. [MIT licence](licenses/hermes-bot-mode-MIT.txt)
 
 # Pocket Companion
 

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Pocket Companion</title>
+  <rect width="512" height="512" rx="114" fill="#141218"/>
+  <g id="companion">
+    <path fill="#ab77f5" d="M79 314c0-52 20-92 60-121 19-14 47-25 70-32 39-12 58-35 65-69 2-8 9-11 16-6 30 20 43 54 35 89 64 5 106 49 106 111 0 82-66 136-169 136h-52c-82 0-131-39-131-108Z"/>
+    <g fill="#fff0d5">
+      <circle cx="190" cy="271" r="34"/>
+      <circle cx="291" cy="264" r="34"/>
+    </g>
+    <g fill="#3b3041">
+      <circle cx="198" cy="262" r="12"/>
+      <circle cx="299" cy="255" r="12"/>
+    </g>
+  </g>
+</svg>

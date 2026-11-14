@@ -17,7 +17,7 @@ Pocket Companion brings a self-hosted Hermes bot roster and streaming conversati
 
 ## Publication checklist for the maintainer
 
-1. Resolve the public copyright credit and review LICENSE_AUDIT.md, LICENSE and THIRD_PARTY_NOTICES.md. The MIT grant applies to original Pocket work. Use a source-only release.
+1. Retain the approved public credit to Jon Pedlow and Hermes Pocket Companion contributors. Review LICENSE_AUDIT.md, LICENSE and THIRD_PARTY_NOTICES.md. The MIT grant applies to original Pocket work. Use a source-only release.
 2. Review final public screenshots, the single-root source repository and the final verification report. Keep private development history, personal avatars, environment settings and build outputs out of the public project.
 3. After owner approval, set the final package version to 1.0.0 in the manifest and lockfile. Update CHANGELOG.md. Run npm ci, npm test, npm run build, npm audit and redacted working-tree and history secret scans on that final commit. Include both browser licence files if distributing a browser build.
 4. Create an empty GitHub repository for the approved project. Check that the local checkout is the reviewed public-source repository and inspect git remote -v and git log --oneline --all. Add the approved repository URL as its remote and push only the reviewed main branch. Enable private security reporting.

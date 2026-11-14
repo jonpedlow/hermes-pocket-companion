@@ -6,7 +6,7 @@ This review covers the source-only 1.0.0-rc.1 candidate, its locked dependency g
 
 **Original source.** The owner reports that the original 26-file ZIP was generated for this project through ChatGPT, supplied under MIT and was not obtained from Grok Bot or another commercial app. All 26 archive entries matched the initial private import in the earlier audit. Subsequent Pocket integration and UI changes were authored for the project. This is the owner’s account, subject to third-party rights. It is not an unconditional declaration of title. The review found no identifiable copied proprietary application code or asset and no additional specific claimant. The audit cannot independently reconstruct every generation input.
 
-**Public attribution is pending.** This local candidate retains the original MIT notice as received. The owner has not approved publication of the named notice or authorised an alternative. Resolve the public credit and approve the exact final tree before publishing. Do not strip existing upstream copyright notices.
+**Public attribution approved, 14 November 2026.** Jon Pedlow approved retaining his name as the public copyright holder. Keep the original MIT notice, “Copyright (c) 2026 Jon Pedlow and Hermes Pocket Companion contributors”, and the applicable upstream notices. Publication of the final release still requires separate owner approval.
 
 ## Dependency inventory
 
@@ -62,4 +62,4 @@ The three unused legacy icon files from the import were excluded. The current la
 
 The non-root lock entries matched the audited private baseline, including integrity values. SHA-256 for this candidate’s lockfile is 27a23251ccc527bbfd50942a65e8acf6ebe58a9bff71edfe328d706e6b680966. Browser notices and supplement accompany the build. The release consists only of source that fetches upstream packages locally. Native-binary redistribution, an offline installer or a prebuilt container would require a separate review.
 
-The parser credits CommonMark tag-list material separately under CC BY-SA 4.0 to the extent applicable. Retain the attribution, linked terms and upstream change description. The MIT notice covers original Pocket work. It does not relicense the third-party lists or Sharp’s native components. No replacement of the current Pocket icon is indicated. The private provenance record remains with the owner. Public copyright attribution and the final publication decision remain open.
+The parser credits CommonMark tag-list material separately under CC BY-SA 4.0 to the extent applicable. Retain the attribution, linked terms and upstream change description. The MIT notice covers original Pocket work. It does not relicense the third-party lists or Sharp’s native components. No replacement of the current Pocket icon is indicated. The private provenance record remains with the owner. The owner approved the public copyright attribution. The final publication decision remains open.

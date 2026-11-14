@@ -8,7 +8,7 @@ Chat with the bots on your own Hermes Agent installation from a phone or desktop
 
 The procedure for agents is in [HERMES-INSTALL.md](HERMES-INSTALL.md). Enter your password yourself in the local setup prompt.
 
-<p><img src="docs/chat.png" width="240" alt="A formatted chat with Ember, a demonstration bot"> <img src="docs/bots.png" width="240" alt="Mobile bot picker showing three demonstration profiles"></p>
+<p><img src="docs/chat.png" width="240" alt="A formatted chat with Ember, a demonstration bot"> <img src="docs/bot-avatars.png" width="240" alt="Four fictional bots with illustrated profile pictures"> <img src="docs/chat-settings.png" width="240" alt="Mobile chat settings with Large text and a bot-specific accent"></p>
 
 ## Install on Windows
 

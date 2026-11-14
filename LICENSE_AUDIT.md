@@ -2,11 +2,11 @@
 
 ## Release scope and origin
 
-This review covers the source-only 1.0.0-rc.1 candidate, its locked dependency graph, the Windows npm installation, public artwork and documentation captures. The private development history and runtime installations are excluded from the distribution.
+This review covers the source-only v1.0.0 release, its locked dependency graph, the Windows npm installation, public artwork and documentation captures. The private development history and runtime installations are excluded from the distribution.
 
 **Original source.** The owner reports that the original 26-file ZIP was generated for this project through ChatGPT, supplied under MIT and was not obtained from Grok Bot or another commercial app. All 26 archive entries matched the initial private import in the earlier audit. Subsequent Pocket integration and UI changes were authored for the project. This is the owner’s account, subject to third-party rights. It is not an unconditional declaration of title. The review found no identifiable copied proprietary application code or asset and no additional specific claimant. The audit cannot independently reconstruct every generation input.
 
-**Public attribution approved, 14 November 2026.** Jon Pedlow approved retaining his name as the public copyright holder. Keep the original MIT notice, “Copyright (c) 2026 Jon Pedlow and Hermes Pocket Companion contributors”, and the applicable upstream notices. Publication of the final release still requires separate owner approval.
+**Public attribution approved, 14 November 2026.** Jon Pedlow approved retaining his name as the public copyright holder. Keep the original MIT notice, “Copyright (c) 2026 Jon Pedlow and Hermes Pocket Companion contributors”, and the applicable upstream notices. The owner approved source-only publication subject to final release checks.
 
 ## Dependency inventory
 
@@ -39,7 +39,7 @@ The workflow references `actions/checkout@v4` and `actions/setup-node@v4`. Both 
 
 ## Third-party and adapted material
 
-The browser build emits 74 package notice entries. All carry licence text. Browser packages declare MIT or ISC. The native runtime, local Hermes source, personal profile avatars and model weights are installed independently. The bridge uses the native helper and protocol. No Hermes implementation or artwork was copied into the candidate. See [third-party notices](THIRD_PARTY_NOTICES.md) for the bundled permission texts.
+The browser build emits 74 package notice entries. All carry licence text. Browser packages declare MIT or ISC. The native runtime, local Hermes source, personal profile avatars and model weights are installed independently. The bridge uses the native helper and protocol. No Hermes implementation or artwork was copied into the release. See [third-party notices](THIRD_PARTY_NOTICES.md) for the bundled permission texts.
 
 - **Within dependencies.** Lucide credits Cole Bemis for Feather-derived portions. The supplement preserves the Feather MIT grant alongside Lucide’s shipped ISC notice. React DOM’s production client identifies Modernizr 3.0.0pre custom-build code under MIT. The Markdown parser’s `micromark-util-html-tag-name` explicitly sources two arrays of HTML tag names from section 4.6 of the CommonMark specification and notes version changes. The specification declares CC BY-SA 4.0. The package declares MIT for its implementation. The supplement attributes the source lists and describes the adaptation. **If a release requires every bundled element to be permissively licensed, resolve the status of those lists first** or substitute an independently implemented parser/data source with documented provenance. No broader MIT grant over specification material is asserted. [Supplement](public/licenses/browser-supplement.txt) · [CommonMark licence](https://github.com/commonmark/commonmark-spec/blob/0.30/LICENSE)
 - **Build tools.** TypeScript ships a separate third-party notice file. Vite’s licence file includes its bundled dependencies’ terms. Both are retained in full in [direct package notices](licenses/direct-packages.txt). Build-time tools do not become Pocket-authored code.
@@ -60,6 +60,6 @@ The three unused legacy icon files from the import were excluded. The current la
 
 ## Release checks and remaining decisions
 
-The non-root lock entries matched the audited private baseline, including integrity values. SHA-256 for this candidate’s lockfile is 27a23251ccc527bbfd50942a65e8acf6ebe58a9bff71edfe328d706e6b680966. Browser notices and supplement accompany the build. The release consists only of source that fetches upstream packages locally. Native-binary redistribution, an offline installer or a prebuilt container would require a separate review.
+The non-root lock entries matched the audited private baseline, including integrity values. SHA-256 for this release lockfile is e3380dda9a0204615a2f5427ac2c857eb2ef4a768e5eb00c126ab2e5c76b46dc. Browser notices and supplement accompany the build. The release consists only of source that fetches upstream packages locally. Native-binary redistribution, an offline installer or a prebuilt container would require a separate review.
 
-The parser credits CommonMark tag-list material separately under CC BY-SA 4.0 to the extent applicable. Retain the attribution, linked terms and upstream change description. The MIT notice covers original Pocket work. It does not relicense the third-party lists or Sharp’s native components. No replacement of the current Pocket icon is indicated. The private provenance record remains with the owner. The owner approved the public copyright attribution. The final publication decision remains open.
+The parser credits CommonMark tag-list material separately under CC BY-SA 4.0 to the extent applicable. Retain the attribution, linked terms and upstream change description. The MIT notice covers original Pocket work. It does not relicense the third-party lists or Sharp’s native components. No replacement of the current Pocket icon is indicated. The private provenance record remains with the owner. The owner approved the public copyright attribution. The approved distribution is the source-only v1.0.0 release.

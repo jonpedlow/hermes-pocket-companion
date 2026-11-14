@@ -4,20 +4,20 @@
 
 Chat with the bots on your own Hermes Agent installation from a phone or desktop browser. Pocket reads your local profiles and avatars, streams replies and opens the selected bot’s conversation history. It is an independent, unofficial companion for Hermes Agent.
 
-> **Ask your Hermes agent:** “Please install Pocket Companion from this GitHub repository, follow its instructions and help me connect my phone.”
+> **Ask your Hermes agent:** “Please install Pocket Companion v1.0.0 from https://github.com/jonpedlow/hermes-pocket-companion, follow HERMES-INSTALL.md, and help me connect my phone.”
 
-Give the agent the repository address and point it to [HERMES-INSTALL.md](HERMES-INSTALL.md). Enter your password yourself in the local setup prompt.
+The procedure for agents is in [HERMES-INSTALL.md](HERMES-INSTALL.md). Enter your password yourself in the local setup prompt.
 
 <p><img src="docs/chat.png" width="240" alt="A formatted chat with Ember, a demonstration bot"> <img src="docs/bots.png" width="240" alt="Mobile bot picker showing three demonstration profiles"></p>
 
 ## Install on Windows
 
 1. Open a bot in your existing Windows Hermes installation. Have Node.js 22.12 or later (with npm) installed for the same Windows user.
-2. Extract the reviewed Pocket source into its own permanent folder. Double-click **Setup Pocket.cmd**. If you already use the default port, choose another using the [installer options](INSTALL.md).
+2. Download the [v1.0.0 source ZIP](https://github.com/jonpedlow/hermes-pocket-companion/releases/download/v1.0.0/Pocket-Companion-v1.0.0-source.zip) and extract it into its own permanent folder. Double-click **Setup Pocket.cmd**. If you already use the default port, choose another using the [installer options](INSTALL.md).
 3. Create your Pocket password when prompted, save it in a password manager, then open the local address printed by setup. The guided installer builds Pocket locally and registers a per-user sign-in task.
 4. For phone access, configure private HTTPS and add Pocket to your home screen. [Phone and desktop instructions](INSTALL.md#open-on-your-phone)
 
-The Windows integration targets Hermes v0.23.0. Linux, macOS and VPS installation have not been verified. Chat requires a connection to the computer running Hermes. [Installation and troubleshooting](INSTALL.md)
+Verified on Windows with Hermes v0.23.0 and on an Android phone, including home-screen installation. iOS home-screen installation and microphone transcription are unverified. Linux, macOS and VPS installation have not been verified. Chat requires a connection to the computer running Hermes. [Installation and troubleshooting](INSTALL.md)
 
 ## What you can do
 

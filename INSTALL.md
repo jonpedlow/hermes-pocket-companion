@@ -6,7 +6,7 @@ Use the same ordinary Windows account that runs Hermes. Open a bot in Hermes fir
 
 ## Run setup
 
-Double-click **Setup Pocket.cmd**, or run this from the extracted folder in PowerShell:
+Extract the [v1.0.0 source ZIP](https://github.com/jonpedlow/hermes-pocket-companion/releases/download/v1.0.0/Pocket-Companion-v1.0.0-source.zip) first. Double-click **Setup Pocket.cmd**, or run this from the extracted folder in PowerShell:
 
 ```powershell
 .\windows\Install.ps1
@@ -54,6 +54,7 @@ To reset a forgotten password, remove this Pocket instance and rerun setup. In T
 
 | Symptom | Check |
 |---|---|
+| Windows PowerShell cannot load Get-Acl | Open a fresh Windows PowerShell window from Start. Run `Import-Module Microsoft.PowerShell.Security` and `Get-Acl .` there, then rerun setup from the extracted folder. This module protects the credential folder. |
 | PowerShell prevents setup | Review the local script and its provenance. Use your organisation’s approved local-script procedure. |
 | Hermes connection check fails | Open the desired profile in Hermes. Confirm its home, bootstrap and Python paths. Repeat setup with explicit overrides if necessary. |
 | Port or instance exists | Keep the existing installation. Choose a free port and a new instance, or start the existing task. |

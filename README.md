@@ -1,6 +1,8 @@
 ![Pocket Companion launch illustration showing a chat and a team of four bots on two phones](docs/pocket-launch.jpg)
 
-Bot avatar designs in this launch illustration are adapted from Hermes Bot Mode, © 2026 Nous Research. [MIT licence](licenses/hermes-bot-mode-MIT.txt)
+**Pocket Companion** © 2026 Jon Pedlow and Hermes Pocket Companion contributors. [Project MIT licence](LICENSE)
+
+**Avatar artwork in the banner** adapts Hermes Bot Mode designs © 2026 Nous Research. [Avatar MIT licence](licenses/hermes-bot-mode-MIT.txt)
 
 # Pocket Companion
 
